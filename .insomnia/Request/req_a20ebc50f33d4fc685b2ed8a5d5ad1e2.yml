@@ -1,0 +1,30 @@
+_id: req_a20ebc50f33d4fc685b2ed8a5d5ad1e2
+type: Request
+parentId: wrk_0339f18e37dc4ecda0e626645a70076c
+modified: 1661187179522
+created: 1661185209506
+url: "{{ _['base-url'] }}/8866/api/oper/auth"
+name: Auth
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "prueba",
+    	"password": "prueba"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_afb90a035ee24f3195658e76830930ff
+authentication: {}
+metaSortKey: -1661185209506
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
