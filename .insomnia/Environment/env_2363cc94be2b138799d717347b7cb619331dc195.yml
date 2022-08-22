@@ -1,14 +1,16 @@
 _id: env_2363cc94be2b138799d717347b7cb619331dc195
 type: Environment
 parentId: wrk_0339f18e37dc4ecda0e626645a70076c
-modified: 1661187145796
+modified: 1661189903293
 created: 1661185209503
 name: Base Environment
 data:
-  base-url: https://dev.softbusinesssr.com.co
+  base-dev-url: https://dev.softbusinesssr.com.co/8866/api/oper
+  base-prod-url: https://app.softbusinesssr.com.co/8866/api/oper
 dataPropertyOrder:
   "&":
-    - base-url
+    - base-dev-url
+    - base-prod-url
 color: null
 isPrivate: false
 metaSortKey: 1661185209503

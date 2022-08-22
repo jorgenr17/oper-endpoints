@@ -1,9 +1,9 @@
 _id: req_a20ebc50f33d4fc685b2ed8a5d5ad1e2
 type: Request
 parentId: wrk_0339f18e37dc4ecda0e626645a70076c
-modified: 1661187179522
+modified: 1661189918727
 created: 1661185209506
-url: "{{ _['base-url'] }}/8866/api/oper/auth"
+url: "{{ _['base-dev-url'] }}/auth"
 name: Auth
 description: ""
 method: POST
